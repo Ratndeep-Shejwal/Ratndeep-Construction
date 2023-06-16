@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ratndeep Construction</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="assets/logo.png" class="logo">
+        <ul class="links">
+            <li class="items"><a href="index.html">HOME</a></li>
+            <li class="items"><a href="#about">ABOUT</a></li>
+            <li class="items"><a href="#services">SERVICES</a></li>
+            <li class="items"><a href="#projects">PROJECTS</a></li>
+            <li class="items"><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="title">
+            <h1>
+                If You've Got The <br>Time, We've Got <br>The Building.
+            </h1>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="about-info">
+            <h2>ABOUT</h2>
+            <div class="spacer"></div>
+            <p>For more than 10 years we have been delivering world class contraction and we've built many lasting
+                relationship along the way. <br> <br>
+                We've matured into an industry leader and trusted resource for those seeking quality, innovation and
+                reliability when building in India.</p>
+        </div>
+        <div class="about-img">
+            <img src="assets/about.jpg" class="about-us-img">
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="service-head">
+            <h1>SERVICES</h1>
+            <div class="spacer-services"></div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="assets/consultation.jpg" alt="" height="150px" width="240px">
+                <h3>CONSULTATION</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.Just click “Edit Text” or double click
+                    me to add your own content and make changes to the font.</p>
+            </div>
+            <div class="card">
+                <img src="assets/renovation.jpg" alt="" height="150px" width="240px">
+                <h3>RENOVATION</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.Just click “Edit Text” or double click
+                    me to add your own content and make changes to the font.</p>
+            </div>
+            <div class="card">
+                <img src="assets/construction.jpg" alt="" height="150px" width="240px">
+                <h3>CONSTRUCTION</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.Just click “Edit Text” or double click
+                    me to add your own content and make changes to the font.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <div class="experience">
+        <img src="assets/Experience.png" alt="" width="100%">
+    </div>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <div class="projects-head">
+            <h1>PROJECTS</h1>
+            <div class="spacer-services"></div>
+        </div>
+        <div class="project-gallery">
+            <img src="assets/proj-1.jpg" ="">
+            <img src="assets/proj-2.jpg" alt="">
+            <img src="assets/proj-3.jpg" alt="">
+            <img src="assets/proj-4.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="contact-head">
+            <h1>CONTACT</h1>
+            <div class="spacer-services"></div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d937.934665110994!2d75.35924027567688!3d19.893254256939418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDUzJzM1LjciTiA3NcKwMjEnMzcuNyJF!5e0!3m2!1sen!2sin!4v1686947003345!5m2!1sen!2sin" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-info">
+            <div class="inquiries">
+                <h4>Inquiries</h4>
+                <p>For any inquiries, questions or commendations, please call: +91 9623869261 or fill out the following
+                    form</p>
+            </div>
+            <div class="head-office">
+                <h4>Head Office</h4>
+                <p>N-7, C-76 Cidco Police Colony
+                    Aurangabad, Maharashtra 431001
+                    <br> <br>
+
+
+                    rajushejwal8234@gmail.com <br>
+                    Tel: +91 9881651605
+                </p>
+            </div>
+        </div>
+        <div class="contact-info-form">
+            <div class="contact-forms">
+                <h4>Contact Us</h4>
+                <form class="contact-form" action="" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="surname">Surname:</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="button" onclick="showPopup()">Submit</button>
+                </form>
+                <div id="popup" class="popup">
+                    <p>Form submitted successfully!</p>
+                </div>
+                <div class="info-logo">
+                    <img src="assets/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h5>© 2023 Ratndeep Shejwal | All rights reserved.</h5>
+    </section>
+</body>
+</html>
